@@ -1,0 +1,51 @@
+# Node modules
+node_modules/
+npm-debug.log*
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+debug.log
+
+# Dependency directories
+/.pnp
+.pnp.js
+
+# Build output
+dist/
+out/
+build/
+
+# IDE settings (VS Code, JetBrains, etc.)
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Process management files
+Procfile
+pm2-log.log
+
+# Ignore database dumps
+*.sql
+*.sqlite
+
+# Coverage directories (for testing)
+coverage/
+
+# Miscellaneous
+*.tgz
+.env
+*.env.local
+.env.test
+.env.production
+.env.backup
+.env.example
